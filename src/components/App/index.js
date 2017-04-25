@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from 'components/App/logo.svg';
 import './style.css';
 
-class App extends Component {
-  render() {
-    return (
+class App extends React.Component {
+	render() {
+		return (
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -15,7 +15,7 @@ class App extends Component {
         </p>
       </div>
     );
-  }
+	}
 }
 
 export default App;
